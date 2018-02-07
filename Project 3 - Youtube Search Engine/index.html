@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Youtube Search Engine</title>
+        <link rel="stylesheet" href="css/style.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+
+</script>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>Search<span>Engine</span></h1>
+            <p>Search all Youtube videos</p>
+        </header>
+        <section>
+            <form id="search-form" name="search-form" onsubmit="return search()">
+                <div class="fieldcontainer">
+                    <input type="search" id="query" class="search-field" placeholder="Search Youtube...">
+                    <input type="submit" name="search-btn" id="search-btn" value="">
+                </div>
+                <ul id="results"></ul>
+                <div id="buttons"></div>
+        </section>
+        <footer>
+            <p>Copyright &copy; 2018, All Rights Reserved</p>
+        </footer>
+    </div>
+</body>
+
+</html>
