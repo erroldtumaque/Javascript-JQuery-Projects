@@ -22,7 +22,7 @@
    	<div id="shouts">
    		<ul>
    			<?php while($row = mysqli_fetch_assoc($shouts)) : ?>
-			<li><?php echo $row['name']; ?>: <?php echo $row['shout']; ?> [<?php echo $row['shout']; ?>]</li> 
+			<li><?php echo $row['name']; ?>: <?php echo $row['shout']; ?> [<?php echo $row['date']; ?>]</li> 
    			<?php endwhile ; ?>
    		</ul>
    	</div>
